@@ -30,9 +30,9 @@ Install Chisel on Windows 10 in easy way
 	![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/installVerilatorOnWin10.PNG)
 4. Run the Chisel tutorial [RefLink](https://github.com/ucb-bar/chisel-tutorial)
 	
-	![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/initChiselTutorial.PNG)
+	![localhost](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/initChiselTutorial.PNG)
 	
-	![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/finiChiselTutorial.PNG)
+	![localhost](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/finiChiselTutorial.PNG)
 5. Happy Hardware Hacking!
 
 ### Issues
