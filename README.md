@@ -1,5 +1,6 @@
 Install Chisel on Windows 10 in easy way
 ===
+
 ### Setup Environment
 * Operation System: Windows 10
 * Required Windows Feature: **Bash on Ubuntu on Windows** (Ubuntu 14.04 LTS)
@@ -22,6 +23,8 @@ Install Chisel on Windows 10 in easy way
     * Default is Windows system32 directory (where we invoke bash.exe), please don't do `sudo rm -rf` in system32 directory.
     * Add `cd ~/` or your project directory into `~/.bashrc` at last line.
 3. Following Chisel (Ubuntu-like) Linux Installation [RefLink](https://github.com/ucb-bar/chisel3/)
+	* Example Working directory is `D:\CompArch\Projects\`
+    * In Ubuntu bash is `/mnt/d/CompArch/Projects/`
 	* If you want to save bash commands into bash script, please change line endings in editor.
 	> ![script](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/buildScript.png)
 	* Install Verilator is normally complete.
@@ -37,3 +40,4 @@ Install Chisel on Windows 10 in easy way
 1. Symbolic Link has recursive list file problem in current bash on windows, please change to native support directory `/mnt/(logic disk in Windows Explorer)/`.
     * Symbolic Link Directory [RefLink](http://stackoverflow.com/questions/9587445/how-to-create-a-link-to-a-directory)
     * Remove Symbolic Link [RefLink](http://askubuntu.com/questions/398818/how-to-remove-symbolic-link)
+    
