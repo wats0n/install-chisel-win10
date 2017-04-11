@@ -16,20 +16,21 @@ Install Chisel on Windows 10 in easy way
     > ```
     * File System hierarchy [RefLink](http://askubuntu.com/questions/759880/where-is-the-ubuntu-file-system-root-directory-in-windows-nt-subsystem-and-vice)
     * Remove `sudo: unable to resovle host` [RefLink](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none)
-![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/addLocalHost.PNG)
+
+	> ![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/addLocalHost.PNG)
 2. Setup Initialization Script for login directory
     * Default is Windows system32 directory (where we invoke bash.exe), please don't do `sudo rm -rf` in system32 directory.
     * Add `cd ~/` or your project directory into `~/.bashrc` at last line.
 3. Following Chisel (Ubuntu-like) Linux Installation [RefLink](https://github.com/ucb-bar/chisel3/)
 	* If you want to save bash commands into bash script, please change line endings in editor.
-![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/buildScript.png)
+	> ![script](https://github.com/wats0n/install-chisel-win10/blob/master/images/buildScript.png)
 	* Install Verilator is normally complete.
-![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/installVerilatorOnWin10.PNG)
+	> ![verilator](https://github.com/wats0n/install-chisel-win10/blob/master/images/installVerilatorOnWin10.PNG)
 4. Run the Chisel tutorial [RefLink](https://github.com/ucb-bar/chisel-tutorial)
 	* Build tutorial by Scala Build Tool
-![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/initChiselTutorial.PNG)
+	> ![init](https://github.com/wats0n/install-chisel-win10/blob/master/images/initChiselTutorial.PNG)
 	* After long time to build Scala environment.
-![localhost](https://github.com/wats0n/install-chisel-win10/blob/master/images/finiChiselTutorial.PNG)
+	> ![finish](https://github.com/wats0n/install-chisel-win10/blob/master/images/finiChiselTutorial.PNG)
 5. Happy Hardware Hacking!
 
 ### Issues
