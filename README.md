@@ -1,4 +1,4 @@
-Install Chisel on Windows 10 in easy way
+Install UCB CHISEL on Windows 10 in easy way
 ===
 
 ### Setup Environment
@@ -8,7 +8,7 @@ Install Chisel on Windows 10 in easy way
 	> Please, preserve lots of free space on C disk for Ubuntu installation and setup packages. Because no options for Ubuntu installer (lxrun.exe) to change installation directory.
 ### Install Steps
 1. Install Bash on Ubuntu on Windows [RefLink](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
-    * Manual update by following commands in order:
+    * Manual update Ubuntu by following commands in order:
     > ```bash
     > #Require password if not logging as root 
     > sudo apt-get update #update package information
@@ -23,8 +23,7 @@ Install Chisel on Windows 10 in easy way
     * Default is Windows system32 directory (where we invoke bash.exe), please don't do `sudo rm -rf` in system32 directory.
     * Add `cd ~/` or your project directory into `~/.bashrc` at last line.
 3. Following Chisel (Ubuntu-like) Linux Installation [RefLink](https://github.com/ucb-bar/chisel3/)
-	* Example Working directory is `D:\CompArch\Projects\`
-    * In Ubuntu bash is `/mnt/d/CompArch/Projects/`
+	* Example working directory is `D:\CompArch\Projects\`, in Ubuntu bash is `/mnt/d/CompArch/Projects/`
 	* If you want to save bash commands into bash script, please change line endings in editor.
 	> ![script](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/buildScript.png)
 	* Install Verilator is normally complete.
