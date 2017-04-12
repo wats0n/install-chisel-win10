@@ -17,8 +17,8 @@ Install UCB CHISEL on Windows 10 in easy way
     > ```
     * User Home Folder path in Windows and Ubuntu [RefLink](http://askubuntu.com/questions/759880/where-is-the-ubuntu-file-system-root-directory-in-windows-nt-subsystem-and-vice)
     * Remove `sudo: unable to resovle host` message [RefLink](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none)
-	> Example: Edit `/etc/hosts` on my computer
-	![localhost](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/addLocalHost.PNG)
+	* Example: Edit `/etc/hosts` on my computer
+	> ![localhost](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/addLocalHost.PNG)
 2. Setup Initialization Script for login directory
     * Default is Windows system32 directory (where we invoke bash.exe), please don't do `sudo rm -rf` in system32 directory.
     * Add `cd ~/` or your project directory into `~/.bashrc` at last line.
