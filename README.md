@@ -37,7 +37,7 @@ Install UCB CHISEL on Windows 10 in easy way
 
 ### Issues
 1. Java version Problem
-    * If Ubuntu has installed Java9(OpenJDK-9), the CHISEL resource would fetch fail.
+    * If Ubuntu has installed Java9(OpenJDK-9), the CHISEL resource would fetch fail .jar resources.
     * Solution: Install OpenJDK-8 on Ubuntu 14.04LTS [RefLink](http://askubuntu.com/questions/464755/how-to-install-openjdk-8-on-14-04-lts/666481#666481)
     * Please check the java/javac is OpenJDK-8 for Chisel library. By following commands:
         > `sudo update-alternatives --config java`
