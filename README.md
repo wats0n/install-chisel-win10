@@ -3,11 +3,17 @@ Install UCB CHISEL on Windows 10 in easy way
 
 ### Setup Environment
 * Operation System: Windows 10
-* Required Windows Feature: **Bash on Ubuntu on Windows** (Ubuntu 14.04 LTS)
-* Comment:  
-	> Please, preserve lots of free space on C disk for Ubuntu installation and setup packages. Because no options for Ubuntu installer (lxrun.exe) to change installation directory.
+* Required Windows Feature: **Bash on Ubuntu on Windows**
+* 1. Ubuntu 14.04 LTS (Windows Anniversary Update, 2016)
+* 2. Ubuntu 16.04 LTS (Windows Creator Update, 2017, Recommendation) 
+
+> Comment(Version): For Start Menu Bash ICON and better bash console interface, I'm highly recommend update Windows to Creator Update. 
+> ![startMenu](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/startMenuBashIcon.png)
+
+> Comment(Quota):  
+> Please, preserve lots of free space on C disk for Ubuntu installation and setup packages. Because no options for Ubuntu installer (lxrun.exe) to change installation directory.
 ### Install Steps
-1. Install Bash on Ubuntu on Windows [RefLink](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+1. Install Bash on Ubuntu on Windows [14.04_RefLink](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) [16.04_RefLink](https://blogs.msdn.microsoft.com/commandline/2017/04/11/windows-10-creators-update-whats-new-in-bashwsl-windows-console/)
     * Manual update Ubuntu by following commands in order:
     > ```bash
     > #Require password if not logging as root 
@@ -16,7 +22,7 @@ Install UCB CHISEL on Windows 10 in easy way
     > sudo apt-get dist-upgrade #update ubuntu system
     > ```
     * User Home Folder path in Windows and Ubuntu [RefLink](http://askubuntu.com/questions/759880/where-is-the-ubuntu-file-system-root-directory-in-windows-nt-subsystem-and-vice)
-    * Remove `sudo: unable to resovle host` message [RefLink](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none)
+    * Remove `sudo: unable to resovle host` message [RefLink](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none) [Ubuntu 14.04 LTS]
 	* Example: Edit `/etc/hosts` on my computer
 	> ![localhost](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/addLocalHost.PNG)
 2. Setup Initialization Script for login directory
@@ -36,7 +42,7 @@ Install UCB CHISEL on Windows 10 in easy way
 5. Happy Hardware Hacking!
 
 ### Issues
-1. Java version Problem
+1. Java version Problem [Ubuntu 14.04 LTS]
     * If Ubuntu has installed Java9(OpenJDK-9), the CHISEL resource would fetch failure on .jar resources.
     * Solution: Install OpenJDK-8 on Ubuntu 14.04LTS [RefLink](http://askubuntu.com/questions/464755/how-to-install-openjdk-8-on-14-04-lts/666481#666481)
     * Please check the java/javac is OpenJDK-8 for Chisel library. By following commands:
