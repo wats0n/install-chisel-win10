@@ -7,11 +7,14 @@ Install UCB CHISEL on Windows 10 in easy way
 * 1. Ubuntu 14.04 LTS (Windows Anniversary Update, 2016)
 * 2. Ubuntu 16.04 LTS (Windows Creator Update, 2017, Recommendation) 
 
-> Comment(Version): For Start Menu Bash ICON and better bash console interface, I'm highly recommend update Windows to Creator Update. 
-> ![startMenu](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/startMenuBashIcon.png)
+> Comment(Version): 
+> For Start Menu Bash ICON and better bash console interface, I'm highly recommend update Windows to Creator Update. 
+
+![startMenu](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/startMenuBashIcon.png)
 
 > Comment(Quota):  
 > Please, preserve lots of free space on C disk for Ubuntu installation and setup packages. Because no options for Ubuntu installer (lxrun.exe) to change installation directory.
+
 ### Install Steps
 1. Install Bash on Ubuntu on Windows [14.04_RefLink](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) [16.04_RefLink](https://blogs.msdn.microsoft.com/commandline/2017/04/11/windows-10-creators-update-whats-new-in-bashwsl-windows-console/)
     * Manual update Ubuntu by following commands in order:
@@ -48,7 +51,7 @@ Install UCB CHISEL on Windows 10 in easy way
     * Please check the java/javac is OpenJDK-8 for Chisel library. By following commands:
         > `sudo update-alternatives --config java`
         > `sudo update-alternatives --config javac`
-    > ![finish](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/updateJava8Version.PNG)
+    > ![finish](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/updateJava8Version.PNG) [Ubuntu 14.04 LTS]
 2. Symbolic Link has recursive list file problem in current bash on windows, please change to native support directory `/mnt/(logic disk in Windows Explorer)/`.
     * Symbolic Link Directory [RefLink](http://stackoverflow.com/questions/9587445/how-to-create-a-link-to-a-directory)
     * Remove Symbolic Link [RefLink](http://askubuntu.com/questions/398818/how-to-remove-symbolic-link)
