@@ -19,7 +19,7 @@ Install UCB CHISEL on Windows 10 in easy way
 1. Install Bash on Ubuntu on Windows [14.04_RefLink](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) [16.04_RefLink](https://blogs.msdn.microsoft.com/commandline/2017/04/11/windows-10-creators-update-whats-new-in-bashwsl-windows-console/)
     * Manual update Ubuntu by following commands in order:
     > ```bash
-    > #Require password if not logging as root 
+    > #Require password if not login as root 
     > sudo apt-get update #update package information
     > sudo apt-get upgrade #update packages
     > sudo apt-get dist-upgrade #update ubuntu system
