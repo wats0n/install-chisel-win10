@@ -7,7 +7,7 @@ Install UCB CHISEL on Windows 10 in easy way
 * 1. Ubuntu 14.04 LTS (Windows Anniversary Update, 2016)
 * 2. Ubuntu 16.04 LTS (Windows Creator Update, 2017, Recommendation) 
 
-> Comment(Version): 
+> Comment(Version):  
 > For Start Menu Bash ICON and better bash console interface, I'm highly recommend update Windows to Creator Update. 
 
 ![startMenu](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/startMenuBashIcon.png)
