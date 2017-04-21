@@ -25,6 +25,7 @@ Install UCB CHISEL on Windows 10 in easy way
     > sudo apt-get dist-upgrade #update ubuntu system
     > ```
     * User Home Folder path in Windows and Ubuntu [RefLink](http://askubuntu.com/questions/759880/where-is-the-ubuntu-file-system-root-directory-in-windows-nt-subsystem-and-vice)
+    * File System for Windows Subsystem  for Linux [RefLink](https://blogs.msdn.microsoft.com/wsl/2017/04/18/file-system-improvements-to-the-windows-subsystem-for-linux/)
     * [Ubuntu 14.04 LTS] Remove `sudo: unable to resovle host` message [RefLink](http://askubuntu.com/questions/59458/error-message-when-i-run-sudo-unable-to-resolve-host-none)
 	* [Ubuntu 14.04 LTS] Example: Edit `/etc/hosts` on my computer
 	> ![localhost](https://raw.githubusercontent.com/wats0n/install-chisel-win10/master/images/addLocalHost.PNG)
